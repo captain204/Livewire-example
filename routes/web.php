@@ -16,3 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+Route::layout('layouts.base')->section('body')->group(function () {
+    Route::livewire('/contact/{id}', 'show-contact');
+});
+
+
+//Route::get('/home', 'HomeController@show');
+
+Route::livewire('/home', 'counter');
+
+Route::livewire('/contact/{id}', 'show-contact');
