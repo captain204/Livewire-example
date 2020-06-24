@@ -29,3 +29,11 @@ Route::layout('layouts.base')->section('body')->group(function () {
 Route::livewire('/home', 'counter');
 
 Route::livewire('/contact/{id}', 'show-contact');
+
+Route::livewire('/post', 'show-posts');
+
+Route::livewire('/delete', 'delete-post');
+
+
+
+

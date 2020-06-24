@@ -82,7 +82,7 @@
                 </div>
             @endif
 
-            @livewire('show-contact', ['contact' => $contact])
+            @livewire('show-contact')
 
             @livewireScripts
 
