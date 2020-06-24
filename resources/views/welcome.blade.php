@@ -82,8 +82,11 @@
                 </div>
             @endif
 
-            @livewire('show-contact')
+            
 
+            @livewire('hello-world')
+            @livewire('search-post')
+           
             @livewireScripts
 
         </div>

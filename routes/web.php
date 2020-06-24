@@ -18,6 +18,11 @@ Route::get('/', function () {
 });
 
 
+Route::get('/mypost', function () {
+    return view('posts');
+});
+
+
 
 Route::layout('layouts.base')->section('body')->group(function () {
     Route::livewire('/contact/{id}', 'show-contact');

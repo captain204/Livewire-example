@@ -1,12 +1,5 @@
 <div>
-    {{-- Do your work, then step back. --}}
-    <div>
-        @foreach ($posts as $post)
-
-            @include('posts', $post)
-
-        @endforeach
-    </div>
-    
-
+    <h1>{{ $this->post->title }}</h1>
+    ...
+    <button wire:click="deletePost">Delete Post</button>
 </div>
