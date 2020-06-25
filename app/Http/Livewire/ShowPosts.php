@@ -10,6 +10,7 @@ class ShowPosts extends Component
 {
     public $postId;
 
+
     public function mount($postId)
     {
         $this->postId = $postId;

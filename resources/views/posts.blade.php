@@ -1,4 +1,4 @@
 @extends('layouts.app')
 @section('content')
-    @livewire('show-posts')
+    @livewire('upload-photo')
 @endsection

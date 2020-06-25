@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/mypost', function () {
+Route::get('/post', function () {
     return view('posts');
 });
 
@@ -35,7 +35,7 @@ Route::livewire('/home', 'counter');
 
 Route::livewire('/contact/{id}', 'show-contact');
 
-Route::livewire('/post', 'show-posts');
+//Route::livewire('/post', 'show-posts');
 
 Route::livewire('/delete', 'delete-post');
 

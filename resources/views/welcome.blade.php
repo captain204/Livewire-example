@@ -86,6 +86,7 @@
 
             @livewire('hello-world')
             @livewire('search-post')
+            @livewire('contact-form');
            
             @livewireScripts
 
